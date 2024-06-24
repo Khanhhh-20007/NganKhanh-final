@@ -1,0 +1,213 @@
+body { 
+    padding: 0px;
+    margin: 0px;
+    background-image: url('anh/bg.jpg')  ;
+}
+
+.hopLon { 
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hopLon > header {
+    background-image: url('anh/nền.webp');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 450px;
+    font-variant: small-caps;
+    color: #554994;
+    position: relative;
+}
+
+.hopLon header .login {
+    position: absolute;
+    padding-left: 18px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    Border-bottom-left-radius: 30px;
+    background-color: #FFD0D0;
+    color: #936767;
+    font-size: 17px;
+    width: 180px;
+    height: 40px;
+    right: 1px;
+    top: 1px;
+}
+
+.hopLon header .login a {
+    font-variant: small-caps;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b01754;
+}
+
+.hopLon header .login a:hover {
+    font-size: large;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #b01754;
+}
+
+.hopLon > nav {
+    line-height: 40px;
+    background-color: #FFD0D0;
+    color: azure;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.hopLon > article {
+    margin-top: 2px;
+    width: 75%;
+    min-height: 408px;
+    box-sizing: border-box;
+    border: 1px solid palevioletred;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    float: left;
+}
+
+.hopLon aside {
+    margin-top: 2px;
+    width: 25%;
+    min-height: 410px;
+    background-color:#f8cae7f6;
+    float: right;
+}
+
+.hopLon footer {
+    border-top: 5px double;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 100px;
+    text-align: center;
+    background-color: rgb(210, 41, 97);
+    font-variant: small-caps;
+    clear: both;
+}
+
+.hopLon > nav > a{
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.hopLon > nav > a:hover {
+    color: rgb(255, 0, 128);
+    text-decoration: underline;
+}
+
+.hopLon > nav > ul li a:hover{
+    text-decoration:underline;
+    font-size:20px;
+} 
+
+.hopLon aside a:hover {
+    text-decoration: none;
+    font-size: larger;
+}
+
+iframe [name=pagechinh] {  
+    width: 100%;
+    min-height: 400px; 
+}
+
+/* Menu con */
+.menu>ul>li {
+    display: inline-block;
+    position:relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.menu>ul>li>a:hover {
+    color: #ff1313ed;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #F875AA;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    list-style: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px #8e1244;
+    left: -60px;
+}
+
+.menu ul ul a {
+    display: block;
+    padding: 0 10px;
+    line-height: 30px;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: #F875AA;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+    background-color: whitesmoke;
+    color: #b7215d;
+}
+.icon {
+    background: url('icon.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted #b01754;
+    color: #8e1244;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+/* Menu đứng */
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #8e1244;
+    list-style: none;
+}
+
+.vmenu a {
+    text-decoration: none;
+    background: url('vien\ bi.png') no-repeat 10px center;
+    display: block;
+    font-size: larger;
+    padding: 8px 5px 8px 30px;
+    border-bottom: 1px #FFCDEA;
+    color: palevioletred;
+    font-variant: small-caps;
+}
+
+.vmenu a:hover {
+    color: white;
+    font-weight: bold;
+    background: url('muiTen.png') no-repeat 10px center;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+    background-color: #d34493;
+}
+
+.vmenu li {
+    border-bottom: 1px dotted rgb(255, 86, 103);
+}
+
